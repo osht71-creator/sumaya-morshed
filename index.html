@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سمية محمد مرشد — رسّامة ونسّاجة</title>
+  <meta name="description" content="سمية محمد مرشد: أرسم بالألوان، وأنسج بالصوف، وأتعلّم كل يوم شيئًا جديدًا.">
+  <meta name="theme-color" content="#2a1f1a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#top" class="logo" aria-label="الصفحة الرئيسية">سُميّة</a>
+    <button class="menu-btn" aria-label="القائمة" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#about">نبذة</a>
+      <a href="#skills">مهاراتي</a>
+      <a href="#journey">رحلتي</a>
+      <a href="#work">أعمالي</a>
+      <a href="#contact" class="nav-cta">تواصل</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- الترحيب -->
+    <section class="hero">
+      <div class="hero-text reveal">
+        <p class="hello">أهلًا، أنا</p>
+        <h1>سمية محمد مرشد</h1>
+        <p class="tagline">أرسم بالألوان، وأنسج بالصوف، وأتعلّم كل يوم شيئًا جديدًا.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">شاهد أعمالي</a>
+          <a class="btn btn-ghost" href="#contact">لنتحدث</a>
+        </div>
+        <svg class="scribble" viewBox="0 0 220 30" aria-hidden="true"><path d="M5 20 C 40 5, 70 28, 110 14 S 180 6, 215 18" /></svg>
+      </div>
+
+      <!-- معرض ثلاثي الأبعاد -->
+      <div class="stage reveal" aria-label="لوحات من أعمالي">
+        <div class="gallery3d" data-tilt>
+          <figure class="frame f1"><img src="assets/images/art-dunes.webp" alt="لوحة كثبان رملية عند الغروب" width="600" height="733"></figure>
+          <figure class="frame f2"><img src="assets/images/art-abstract.webp" alt="لوحة تجريدية بخيوط ملونة" width="600" height="733"></figure>
+          <figure class="frame f3"><img src="assets/images/art-dusk.webp" alt="لوحة جبال في ليلة مقمرة" width="600" height="733"></figure>
+        </div>
+        <p class="stage-hint">حرّك المؤشر فوق اللوحات ✦</p>
+      </div>
+    </section>
+
+    <div class="sadu-band" role="presentation"></div>
+
+    <!-- نبذة -->
+    <section id="about" class="section about">
+      <h2 class="section-title reveal">نبذة عنّي</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>أحب أن أصنع الأشياء بيدي. بدأت بالرسم صغيرة على هوامش دفاتري، ثم أخذتني خيوط الصوف إلى عالم النسج.</p>
+          <p>أؤمن أن اللوحة والمنسوجة تتكلمان اللغة نفسها: لون، وإيقاع، وصبر.</p>
+          <p>طموحي أن يكون لي معرض فردي، وأن أعلّم غيري أن الجمال يبدأ بخيط واحد.</p>
+        </div>
+        <aside class="note reveal" data-tilt>
+          <span class="pin" aria-hidden="true"></span>
+          <p class="note-title">من دفتري ✎</p>
+          <p class="note-body">«لا أنتظر أن أتقن الشيء حتى أبدأه… أبدأ، فأتقنه.»</p>
+          <p class="note-sign">— سمية</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- المهارات -->
+    <section id="skills" class="section skills">
+      <h2 class="section-title reveal">خمس مهارات أعتزّ بها</h2>
+      <p class="section-sub reveal">اقلب البطاقة لتعرف أكثر</p>
+      <div class="skill-grid">
+        <button class="skill reveal" type="button">
+          <span class="skill-inner">
+            <span class="face front"><span class="ico">🎨</span><strong>الرسم بالأكريليك</strong></span>
+            <span class="face back">أرسم المناظر والتجريد بطبقات لونية متدرجة، وأحب ألوان الصحراء ساعة الغروب.</span>
+          </span>
+        </button>
+        <button class="skill reveal" type="button">
+          <span class="skill-inner">
+            <span class="face front"><span class="ico">🧶</span><strong>النسج اليدوي بالصوف</strong></span>
+            <span class="face back">أنسج على النول نقوشًا مستوحاة من السدو: مثلثات، ومعيّنات، وخطوط بإيقاع واحد.</span>
+          </span>
+        </button>
+        <button class="skill reveal" type="button">
+          <span class="skill-inner">
+            <span class="face front"><span class="ico">🌿</span><strong>تنسيق الألوان</strong></span>
+            <span class="face back">أختار لوحة ألوان كل قطعة قبل أن أبدأ، وأجرّب الصباغة الطبيعية من قشر الرمان والكركم.</span>
+          </span>
+        </button>
+        <button class="skill reveal" type="button">
+          <span class="skill-inner">
+            <span class="face front"><span class="ico">✏️</span><strong>الرسم التحضيري</strong></span>
+            <span class="face back">كل عمل يبدأ عندي برسمة بالقلم الرصاص، أخطط فيها التكوين والمساحات قبل اللون والخيط.</span>
+          </span>
+        </button>
+        <button class="skill reveal" type="button">
+          <span class="skill-inner">
+            <span class="face front"><span class="ico">📚</span><strong>التعلّم الذاتي</strong></span>
+            <span class="face back">أتعلّم من الكتب والدورات والتجربة، وأدوّن كل ما أتعلمه في دفتر صغير لا يفارقني.</span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- مكعب النسيج -->
+    <section class="section loom">
+      <div class="loom-text reveal">
+        <h2 class="section-title">بين الخيط واللون</h2>
+        <p>كل وجه من هذا المكعب نقشٌ نسجته أو رسمته. اسحبه بإصبعك أو بالمؤشر ودوّره كما تحب.</p>
+        <p class="muted">النقوش مستوحاة من السدو، فن النسيج البدوي في الجزيرة العربية.</p>
+      </div>
+      <div class="cube-scene reveal" aria-label="مكعب نقوش النسيج ثلاثي الأبعاد">
+        <div class="cube" id="cube">
+          <div class="cube-face cf1" style="background-image:url(assets/images/weave-1.webp)"></div>
+          <div class="cube-face cf2" style="background-image:url(assets/images/weave-2.webp)"></div>
+          <div class="cube-face cf3" style="background-image:url(assets/images/weave-3.webp)"></div>
+          <div class="cube-face cf4" style="background-image:url(assets/images/weave-4.webp)"></div>
+          <div class="cube-face cf5" style="background-image:url(assets/images/weave-5.webp)"></div>
+          <div class="cube-face cf6" style="background-image:url(assets/images/weave-6.webp)"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- رحلتي -->
+    <section id="journey" class="section journey">
+      <h2 class="section-title reveal">رحلتي، وإلى أين أمضي</h2>
+      <ol class="timeline">
+        <li class="reveal"><span class="dot"></span><h3>البداية</h3><p>أقلام تلوين، وهوامش دفاتر المدرسة، وكثير من الشمس والكثبان.</p></li>
+        <li class="reveal"><span class="dot"></span><h3>أول خيط</h3><p>تعلّمت أساسيات النسج، وكانت أول قطعة لي شريطًا صغيرًا مليئًا بالأخطاء، وما زلت أحتفظ به.</p></li>
+        <li class="reveal"><span class="dot"></span><h3>نَوْل</h3><p>جمعت لوحاتي ومنسوجاتي في متجر صغير أسميته «نَوْل»، تُصنع كل قطعة فيه يدويًا.</p></li>
+        <li class="reveal now"><span class="dot"></span><h3>الآن أتعلّم</h3><p>الصباغة الطبيعية للصوف، وتقنيات النسج الأرضي، وبناء حضوري على الإنترنت.</p></li>
+      </ol>
+      <div class="dreams reveal">
+        <h3>طموحاتي القادمة</h3>
+        <ul>
+          <li>معرض فردي يجمع اللوحة والمنسوجة في مكان واحد</li>
+          <li>ورشة أعلّم فيها النسج للمبتدئات</li>
+          <li>مجموعة منسوجات بألوان طبيعية مئة بالمئة</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- أعمالي -->
+    <section id="work" class="section work">
+      <h2 class="section-title reveal">أين تجد أعمالي؟</h2>
+      <div class="work-grid">
+        <a class="work-card reveal" data-tilt href="https://nawl-studio.pages.dev" target="_blank" rel="noopener">
+          <img src="assets/images/art-dunes.webp" alt="" width="600" height="733" loading="lazy">
+          <span class="work-body">
+            <strong>متجر نَوْل</strong>
+            <span>لوحات ومنسوجات صوف مصنوعة يدويًا، والطلب عبر واتساب.</span>
+            <em>زيارة المتجر ←</em>
+          </span>
+        </a>
+        <a class="work-card reveal" data-tilt href="https://sumaya-works.pages.dev" target="_blank" rel="noopener">
+          <img src="assets/images/art-abstract.webp" alt="" width="600" height="733" loading="lazy">
+          <span class="work-body">
+            <strong>معرض أعمالي</strong>
+            <span>المشاريع التي صمّمتها، من الفكرة إلى النتيجة.</span>
+            <em>تصفّح المعرض ←</em>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- تواصل -->
+    <section id="contact" class="section contact">
+      <div class="contact-card reveal" data-tilt>
+        <h2>لنصنع شيئًا جميلًا معًا</h2>
+        <p>لطلب لوحة مخصّصة، أو منسوجة بألوانك، أو حتى لتبادل الأفكار… راسلني.</p>
+        <a class="btn btn-primary big" href="mailto:sumaya.morshed@gmail.com">sumaya.morshed@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="sadu-band thin" role="presentation"></div>
+    <p>صُنع بحُب وخيط وألوان — سمية محمد مرشد © <span id="year">2026</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
